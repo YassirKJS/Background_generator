@@ -1,6 +1,7 @@
-//import { without } from 'lodash';
-//console.log(without);
+// Load the full build.
+var _ = require('lodash');
 
+console.log(_);
 const css = document.querySelector("h3");
 const color1 = document.getElementById("color1");
 const color2 = document.getElementById("color2");
